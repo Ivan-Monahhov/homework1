@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+
+*{
+  font-family: "Reggae One";
+}
+
+.facebook-button img{
+  height: 30px;
+  padding: 20px 10px;
+}
+
+.facebook-button span{
+  position: relative;
+  top: -30px;
+  height: 30px;
+  color: white;
+}
+
+.facebook-button:hover{
+  color: blueviolet;
+  cursor: pointer;
+}
